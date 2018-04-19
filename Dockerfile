@@ -1,4 +1,4 @@
-FROM golang:1.10-alpine
+FROM golang:alpine
 
 RUN apk add --no-cache git openssh make bash build-base
 
